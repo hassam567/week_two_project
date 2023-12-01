@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>demo shop</title>
+        <style>
+            /* Custom styles go here */
+            .navbar-nav .nav-link:hover {
+                color: #377dff;
+                /* Change this to your desired hover color */
+            }
+
+            .navbar-nav .nav-link {
+                color: #677788;
+                /* Change this to your desired default color */
+            }
+
+            .flex-row {
+
+                display: flex;
+                flex-direction: row;
+
+
+            }
+
+            .flex-column {
+
+                display: flex;
+                flex-direction: column;
+
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-sm bg-white">
+            <div class="container">
+                <a href="#" class="navbar-brand"><img
+                        src="https://htmlstream.com/preview/front-v4.3.1/assets/svg/logos/logo.svg" alt="logo"></a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#mycollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="mycollapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                href="#">Listing</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">Listing</a>
+                                <a href="#" class="dropdown-item">Listing(Listing Grid)</a>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="#">Product Overview</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pages</a></li>
+                        <li class="nav-item"><Button class="btn btn-primary" style="margin-left: 20px;"
+                                data-bs-toggle="modal" type="button">Login</Button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-light" style="height:600px">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active ">
+
+
+                        <div class="flex-row">
+
+                            <img src="https://htmlstream.com/preview/front-v4.3.1/assets/img/mockups/img1.png"
+                                alt="T-Shirt" width="400px" height="300px"
+                                style="margin-top: 170px; margin-left: 300px;">
+
+                            <div class="flex-column" style="margin-top: 170px; margin-left: 120px;">
+                                <h1><b>Celio hoodie</b></h1>
+                                <br>
+                                <p style="white-space: pre-line; text-align: justify;">Founded in 1985, French label
+                                    Celio channels 30 years of
+                                    expertise into its contemporary menswear range.
+                                    Expect fly style for a city or beach
+                                    with its denim shorts, chinos and printed jersey.</p>
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <div class="carousel-item  ">
+
+                        <div class="flex-row">
+
+                            <img src="https://htmlstream.com/preview/front-v4.3.1/assets/img/mockups/img5.png" alt="Cap"
+                                width="400px" height="300px" style="margin-top: 170px; margin-left: 300px;">
+                            <div class="flex-column" style="margin-top: 170px; margin-left: 120px;">
+                                <h1><b>Front original design cap</b></h1>
+                                <p style="white-space: pre-line; text-align: justify;">As well as being game-changers
+                                    when it comes to technical
+                                    innovation, Front has some of the bestselling
+                                    cap in its locker.</p>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="carousel-item  ">
+
+                        <div class="flex-row">
+
+                            <img src="https://htmlstream.com/preview/front-v4.3.1/assets/img/mockups/img6.png" alt="Cap"
+                                width="400px" height="300px" style="margin-top: 170px; margin-left: 300px;">
+                            <div class="flex-column" style="margin-top: 170px; margin-left: 120px;">
+                                <h1><b>Apple iPad Pro</b></h1>
+                                <p style="white-space: pre-line; text-align: justify;">It's all new, all screen, and all
+                                    powerful.
+                                    Completely redesigned and packed with our most advanced technology,
+                                    it will make you rethink what
+                                    iPad is capable of.</p>
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <div class="container" style="height: 200px;">
+            
+        <div class="row  align-items-center">
+            <div class="col-lg-4 align-items-center">
+           
+                <div class="d-flex">
+                 <div>
+                    <img src="https://htmlstream.com/preview/front-v4.3.1/assets/svg/illustrations/oc-protected-card.svg"
+                    alt="Security Checkout image" width="60px" height="60px">
+                <br>
+
+
+                 </div>
+                 <div style="margin-left: 30px;">
+                    <h4>Secure checkout</h4>
+                    <p>Guaranteed safe checkout</p>
+                 </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 align-items-center">
+           
+                <div class="d-flex">
+                 <div>
+                    <img src="https://htmlstream.com/preview/front-v4.3.1/assets/svg/illustrations/oc-return.svg"
+                    alt="Security Checkout image" width="60px" height="60px">
+                <br>
+
+
+                 </div>
+                 <div style="margin-left: 30px;">
+                    <h4 >30 Days return</h4>
+                    <p>We offer you a full refund within 30 days of purchase.</p>
+                 </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 align-items-center">
+           
+                <div class="d-flex">
+                 <div>
+                    <img src="https://htmlstream.com/preview/front-v4.3.1/assets/svg/illustrations/oc-truck.svg"
+                    alt="Security Checkout image" width="60px" height="60px">
+                <br>
+
+
+                 </div>
+                 <div style="margin-left: 30px;">
+                    <h4>Free shipping</h4>
+                    <p>Automatically receive free standard shipping on every order.</p>
+                 </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+        <hr>
+      
+
+       
+
+    </body>
+
+</html>
